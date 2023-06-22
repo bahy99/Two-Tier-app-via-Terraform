@@ -28,3 +28,6 @@ This project is an Infrastructure-as-Code (IaC) implementation using Terraform t
      Terraform will prompt for confirmation. Enter yes to proceed with the destruction.  
 ## Contributing
     Contributions are welcome! If you find any issues or want to enhance this project, please submit a pull request.
+ ## Acknowledgments
+    Terraform - Infrastructure as Code tool by HashiCorp
+    Amazon Web Services - Cloud computing platform used for provisioning the infrastructure
