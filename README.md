@@ -2,8 +2,8 @@
 This project is an Infrastructure-as-Code (IaC) implementation using Terraform to provision a two-tier application infrastructure on AWS. It sets up a Virtual Private Cloud (VPC) with an Internet Gateway (IGW) and route tables. Inside the VPC, it creates two subnets, one public and one private. The public subnet contains an EC2 instance called "APP," while the private subnet contains an EC2 instance called "DB." Additionally, it utilizes AWS S3 bucket to store the Terraform state file and DynamoDB for locking purposes.
 ## Prerequisites
 Before running this Terraform project, make sure you have the following prerequisites:
-.. AWS account credentials with appropriate permissions to create resources.
-.. Terraform installed on your local machine. 
+1- AWS account credentials with appropriate permissions to create resources.
+2- Terraform installed on your local machine. 
 ## Getting Started
     1- Clone the repository:
        # git clone https://github.com/bahy99/Two-Tier-app-via-Terraform.git
