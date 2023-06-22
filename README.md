@@ -26,3 +26,5 @@ This project is an Infrastructure-as-Code (IaC) implementation using Terraform t
      To clean up and destroy the resources created by this Terraform project, run the following command:
        # terraform destroy
      Terraform will prompt for confirmation. Enter yes to proceed with the destruction.  
+## Contributing
+    Contributions are welcome! If you find any issues or want to enhance this project, please submit a pull request.
